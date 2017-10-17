@@ -7,5 +7,6 @@ public class test2 {
 	System.out.println("HelloWorld for the seond time");
 	System.out.println("HelloWorld for the seond time");
 	System.out.println("HelloWorld for the seond time");
+	System.out.println("HelloWorld for the seond time");
     }
 }
