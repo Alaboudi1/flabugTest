@@ -5,7 +5,7 @@ public class Primitives
 {
     public static void main( String[] args )
     {
-        int i = 10;
-        int x = i + 12;
+        int i = 1;
+        int x = i + 2;
     }
 }
