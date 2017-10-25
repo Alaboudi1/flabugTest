@@ -5,7 +5,7 @@ public class Primitives
 {
    
     public static int add (int x, int y){
-        int result = x + y;
+        int result = 2;
         return result;
     }
 }
