@@ -5,8 +5,8 @@ public class Primitives
 {
    
     public static int add (int x, int y){
-        int re;
-		re = Math.addExact(x, y);
-        return re;
+        int res;
+		res = Math.addExact(x, y);
+        return res;
     }
 }
