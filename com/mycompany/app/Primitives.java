@@ -11,7 +11,7 @@ public class Primitives
     }
     public static double addDouble (double x, double y){
         double res;
-        res = Math.addExact(x, y);
+        res = x+y;
         if(x > 5){
             x++;
         }
