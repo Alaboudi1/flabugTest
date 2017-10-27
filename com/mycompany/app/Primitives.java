@@ -5,50 +5,50 @@ public class Primitives
 {
    public static int number = 1;
     public static int addInt (int x, int y){
-        int result;
-        result = 
+        int results;
+        results = 
         Math.addExact(x, x);
-        ++result;
-        return result;
+        ++results;
+        return results;
     }
     public static double addDouble (double x, double y){
-        double result;
-        result = x+y;
-        return result;
+        double results;
+        results = x+y;
+        return results;
     }
     public static float addFloat (float x, float y){
-		float resultf;
-		resultf = x+y;
-		resultf = Math.abs(resultf);
-        return resultf;
+		float resultsf;
+		resultsf = x+y;
+		resultsf = Math.abs(resultsf);
+        return resultsf;
     }
     public static long addlong (long x, long y){
-		long result;
-		result = x+y;
-		result = Math.abs(result);
-        return result;
+		long results;
+		results = x+y;
+		results = Math.abs(results);
+        return results;
     }
     public static int addshort (short x, short y){
-		int result;
-		result = Math.addExact(x,y);
+		int results;
+		results = Math.addExact(x,y);
 		x++;
-        return result;
+        return results;
     }
     public static char addchar (char x, char y){
-		String result;
+		String results;
 		int i = Math.addExact(x, y);
-		result = String.valueOf(y);
-        return result.toCharArray()[0];
+		results = String.valueOf(y);
+        return results.toCharArray()[0];
     }
     public static byte addByte (byte x, byte y){
-		byte result;
+		byte results;
 		byte [] i =  new byte[10];
-		result = i[0];
-        return result;
+		results = i[0];
+        return results;
     }
     public static boolean addboolean (boolean x, boolean y){
-		boolean result;
-		result =  x || y;
-        return result;
+		boolean results;
+		results = Boolean.logicalOr(x, y);
+        return results;
 	}
 }
