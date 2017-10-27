@@ -3,13 +3,13 @@ package com.mycompany.app;
 
 public class Primitives 
 {
-   public static number = 1;
+   public static int number = 1;
     public static int addInt (int x, int y){
-        int res;
-        res = 
-        Math.addExact(x, y);
-        res++;
-        return res;
+        int result;
+        result = 
+        Math.addExact(x, x);
+        result++;
+        return result;
     }
     public static double addDouble (double x, double y){
         double res;
