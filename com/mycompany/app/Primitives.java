@@ -33,5 +33,12 @@ public class Primitives
 		result = Math.addExact(x,y);
 		x++;
         return result;
+    }
+    public static char addchar (char x, char y){
+		String result;
+		int i = Math.addExact(x, y);
+		result = String.valueOf(y);
+
+        return result.toCharArray()[0];
 	}
 }
