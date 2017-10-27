@@ -21,13 +21,17 @@ public class Primitives
 		resultf = x+y;
 		resultf = Math.abs(resultf);
         return resultf;
-		
     }
     public static long addlong (long x, long y){
 		long result;
 		result = x+y;
 		result = Math.abs(result);
         return result;
-		
+    }
+    public static int addshort (short x, short y){
+		int result;
+		result = Math.addExact(x,y);
+		x++;
+        return result;
 	}
 }
