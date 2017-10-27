@@ -19,8 +19,15 @@ public class Primitives
     public static float addFloat (float x, float y){
 		float resultf;
 		resultf = x+y;
-		resultf = Math.abs(result);
+		resultf = Math.abs(resultf);
         return resultf;
+		
+    }
+    public static long addlong (long x, long y){
+		long result;
+		result = x+y;
+		result = Math.abs(result);
+        return result;
 		
 	}
 }
