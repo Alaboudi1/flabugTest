@@ -42,9 +42,13 @@ public class Primitives
     }
     public static byte addByte (byte x, byte y){
 		byte result;
-		byte [] i = "hello".getBytes();
-		i[i.length] = x;
+		byte [] i =  new byte[10];
 		result = i[0];
+        return result;
+    }
+    public static boolean addboolean (boolean x, boolean y){
+		boolean result;
+		result =  x || y;
         return result;
 	}
 }
