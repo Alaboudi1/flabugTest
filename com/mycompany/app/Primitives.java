@@ -5,49 +5,49 @@ public class Primitives
 {
    public static int number = 1;
     public static int addInt (int x, int y){
-        int result;
-        result = 
+        int res;
+        res = 
         Math.addExact(x, x);
-        ++result;
-        return result;
+        ++res;
+        return res;
     }
     public static double addDouble (double x, double y){
-        double result;
-        result = x+y;
-        return result;
+        double res;
+        res = x+y;
+        return res;
     }
     public static float addFloat (float x, float y){
-		float result;
-		result = x+y;
-		result = Math.abs(result);
-        return result;
+		float res;
+		res = x+y;
+		res = Math.abs(res);
+        return res;
     }
     public static long addlong (long x, long y){
-		long result;
-		result = x+y;
-		result = Math.abs(result);
-        return result;
+		long res;
+		res = x+y;
+		res = Math.abs(res);
+        return res;
     }
     public static int addshort (short x, short y){
-		int result;
-		result = Math.addExact(x,y);
+		int res;
+		res = Math.addExact(x,y);
 		x++;
-        return result;
+        return res;
     }
     public static char addchar (char x, char y){
-		char result;
-		result = String.valueOf(y).toCharArray()[0];
-        return result;
+		char res;
+		res = x;
+        return res;
     }
     public static byte addByte (byte x, byte y){
-		byte result;
+		byte res;
 		byte [] i =  new byte[10];
-		result = i[0];
-        return result;
+		res = i[0];
+        return res;
     }
     public static boolean addboolean (boolean x, boolean y){
-		boolean result;
-		result = Boolean.logicalOr(x, y);
-        return result;
+		boolean res;
+		res = Boolean.logicalOr(x, y);
+        return res;
 	}
 }
