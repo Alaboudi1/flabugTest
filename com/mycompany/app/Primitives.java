@@ -38,7 +38,13 @@ public class Primitives
 		String result;
 		int i = Math.addExact(x, y);
 		result = String.valueOf(y);
-
         return result.toCharArray()[0];
+    }
+    public static byte addByte (byte x, byte y){
+		byte result;
+		byte [] i = "hello".getBytes();
+		i[i.length] = x;
+		result = i[0];
+        return result;
 	}
 }
