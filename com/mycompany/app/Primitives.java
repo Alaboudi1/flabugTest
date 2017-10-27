@@ -12,21 +12,15 @@ public class Primitives
         return result;
     }
     public static double addDouble (double x, double y){
-        double resultd;
-        resultd = x+y;
-        if(y > 6){
-            --y;
-        }
-        return resultd;
+        double result;
+        result = x+y;
+        return result;
     }
     public static float addFloat (float x, float y){
-		float result;
-		result = x+y;
-		result = Math.abs(result);
-        if(y > 5){
-            y++;
-        }
-        return result;
+		float resultf;
+		resultf = x+y;
+		resultf = Math.abs(result);
+        return resultf;
 		
 	}
 }
