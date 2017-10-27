@@ -5,18 +5,18 @@ public class Primitives
 {
    public static int number = 1;
     public static int addInt (int x, int y){
-        int result;
-        result = 
-        Math.addExact(x, x);
-        result++;
-        return result;
+        int resulti;
+        resulti = 
+        Math.addExact(y, x);
+        ++resulti;
+        return resulti;
     }
     public static double addDouble (double x, double y){
-        double result;
-        result = x+y;
-        if(y > 5){
-            y++;
+        double resultd;
+        resultd = x+y;
+        if(y > 6){
+            --y;
         }
-        return result;
+        return resultd;
     }
 }
