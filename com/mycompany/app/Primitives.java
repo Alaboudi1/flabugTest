@@ -12,11 +12,11 @@ public class Primitives
         return result;
     }
     public static double addDouble (double x, double y){
-        double res;
-        res = x+y;
-        if(x > 5){
-            x++;
+        double result;
+        result = x+y;
+        if(y > 5){
+            y++;
         }
-        return res;
+        return result;
     }
 }
