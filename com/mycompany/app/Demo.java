@@ -4,8 +4,8 @@ public class Demo {
 
     public static int getBigger(int x, int y) {
         int big;
-        if (x > y) // bug!
-            big = y;
+        if (x > y) 
+            big = y; // bug!
         else
             big = y;
         return big;
