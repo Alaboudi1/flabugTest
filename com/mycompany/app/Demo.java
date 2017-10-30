@@ -1,3 +1,4 @@
+package com.mycompany.app;
 
 public class Demo {
 
@@ -11,6 +12,6 @@ public class Demo {
     }
 
     public static double getRandom() { // flaky test
-        return Math.rint(10);
+        return Math.random();
     }
 }
