@@ -1,15 +1,15 @@
 
 public class Objects {
 
-    public static Object createObjectFrom(Object x) {
-		Object o = x;
-        return o;
+    public static String createStringFrom(String x) {
+		String s = x;
+        return s;
     }
-    public static boolean equalsObjects(Object x, Object y) {
-        Boolean b =  x == y && x.equals(y);
-        return b;
+    public static boolean equalsStrings(String x, String y) {
+        Boolean s =  x == y && x.equals(y);
+        return s;
     }
-    public static Object Factory(){
-          return new Object();
+    public static String Factory(){
+          return new String();
     }
-}
+}   
