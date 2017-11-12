@@ -3,16 +3,15 @@ package com.mycompany.app;
 public class Objects {
 
     public static String createStringFrom(String x) {
-		String string = x;
-        return string;
+		String str = x;
+        return str;
     }
     public static String equalsStrings(String x, String y) {
-        String string =  x.concat(y) + "!";
-        return string;
+        String str =  x.concat(y) + "!";
+        return str;
     }
     public static String Factory(){
-        String g ;
-        return g;
+         return new String();
             
     }
 }   
