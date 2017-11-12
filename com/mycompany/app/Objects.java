@@ -11,7 +11,8 @@ public class Objects {
         return string;
     }
     public static String Factory(){
-         return new String();
+        String g ;
+        return g;
             
     }
 }   
